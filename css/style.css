@@ -15,6 +15,7 @@
     width: 100%;
 }
 
+/* header e section con testo */
 .container > .intestazione {
     height: 120px;
     margin-bottom: 30px;
@@ -25,7 +26,6 @@
     height: 400px;
     margin-bottom: 30px;
     background-color: rgb(253, 208, 123);
-
 }
 
 .container:first-child main {
@@ -40,6 +40,10 @@
 
 /* Blocchi all'interno del Main */
 
+main {
+    padding-bottom: 20px;
+}
+
 main .main-header {
     height: 80px;
     margin-bottom: 20px;
@@ -49,8 +53,6 @@ main .main-header {
 main .aside-block {
     width: calc(20% - 15px); 
     height: 500px;
-    /* border: 2px solid black; */
-    margin-bottom: 20px;
     float: left;
     background-color: turquoise;
 }
@@ -60,7 +62,6 @@ main .section-block {
     height: 500px;
     margin: 0 15px;
     float: left;
-    /* border: 2px solid black; */
     background-color: turquoise;
 }
 
